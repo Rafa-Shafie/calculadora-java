@@ -1,4 +1,4 @@
-# Calculadora - Java Moderno
+# Calculadora - Java
 
 Este e mais um projeto integrado ao meu portfolio pessoal, desenvolvido para fixar os conceitos de Java puro, Orientacao a Objetos e recursos modernos da linguagem que estou aprendendo no Bootcamp Santander 2026 - AI Java Back-end.
 
