@@ -32,15 +32,14 @@ public class Calculadora {
             return;
         }
 
-        // Switch Expression (recurso moderno do Java). Bem melhor que o switch antigo!
-        // Nao precisa daquele monte de 'break' repetitivo e ja joga o resultado direto na variavel.
+        // Switch Expression (recurso moderno do Java).
         double resultado = switch (operador) {
             case SOMA -> primeiroNumero + segundoNumero;
             case SUBTRACAO -> primeiroNumero - segundoNumero;
             case MULTIPLICACAO -> primeiroNumero * segundoNumero;
             case DIVISAO -> primeiroNumero / segundoNumero;
             case POTENCIA -> Math.pow(primeiroNumero, segundoNumero);
-            default -> 0; // O Java me obriga a colocar esse default por seguranca caso tudo falhe
+                default -> 0; // questão de segurança
         };
 
         // Formatando com %.2f para a saida se limitar a duas casas decimais
